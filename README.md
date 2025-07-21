@@ -13,10 +13,14 @@ inspection and maintenance systems.
 
 The project implements the YOLO v8 model due to its balance between speed and detection
 accuracy. Key features of the approach include:
+
 ● Fast Inference: Capable of real-time detection with minimal latency.
+
 ● Anchor-free Detection: Enhances bounding box placement, especially for overlapping
 or small objects.
+
 ● Extensive Customizability: The framework integrates smoothly with PyTorch,
 facilitating customization .
+
 The training process involved optimizing loss functions, including classification and
 bounding box regression losses, over 50 epochs. 
