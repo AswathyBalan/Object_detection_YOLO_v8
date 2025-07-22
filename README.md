@@ -68,13 +68,11 @@ These results demonstrate that the model is procient in detecting car parts with
 precision at IoU thresholds of 50%, though stricter thresholds remain challenging.
 
 
-Visualization
+**Visualization**
 
 Sample predictions on the test dataset were visualized, showing bounding boxes, class
 labels, and condence scores for detected objects. The visualizations demonstrate the
 model's capability to localize car parts accurately, even in complex images
-
-
 Certain categories were harder for the model to detect accurately. By analyzing detection
 errors and condence scores, the following challenging categories were identied,
 
@@ -102,7 +100,7 @@ robustness
 ● Extended Training: Increase the number of epochs to allow better convergence of model
 parameters.
 
-Conclusion
+**Conclusion**
 
 This project demonstrated the effectiveness of YOLO v8 for object detection tasks,
 particularly for car part localization. Although the model achieved strong
